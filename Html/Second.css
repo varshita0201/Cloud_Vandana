@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.a{
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    vertical-align: middle;
+     margin-bottom: 10px;
+}
+.second{
+    display: flex;
+    align-items: center;
+}
+.b{
+    width:400px;
+    height:auto;
+    background-color: beige;
+    padding: 20px;
+   
+}
+button{
+    cursor: pointer;
+    width:80px;
+}

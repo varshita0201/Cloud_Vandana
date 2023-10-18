@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="Second.css">
+    </head>
+    <body>
+        <div class="b">
+            <h2>SURVEY FORM</h2>
+            <div >
+                    <div class="a">
+                        <p>First Name</p>
+                        <div class="second"><input type="text" id="first" required/></div>
+                        
+                    </div>
+                    
+                    
+                    <div class="a">
+                        <p>Last Name</p>
+                        <div class="second"> <input type="text" id="last" required/></div>
+                    </div>
+                   
+                    <div class="a">
+                        <p>Date Of Birth</p>
+                        <div class="second"><input id="dob" type="date" required/></div>
+                    </div>
+                    <div class="a">
+                        <p>Country</p>
+                        <div class="second">
+                            <select id="country" required>
+                                <option value="">Select a country</option>
+                                <option>Canada</option>
+                                <option>China</option>
+                                <option>Denmark</option>
+                                <option>Egypt</option>
+                                <option>France</option>
+                                <option>Germany</option>
+                                <option>India</option>
+                                <option>Sri Lanka</option>
+                                <option>South Korea</option>
+                                <option>North Korea</option>
+                                <option>Japan</option>
+                                <option>UK</option>
+                                <option>USA</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                           
+                        
+                    </div>
+                    <div class="a">
+                        <p>Gender</p>
+                        <div id="gender" class="second" required>
+                            <label><input type="radio" name="gender" value="Female"> Female</label>
+                            <label><input type="radio" name="gender" value="Male"> Male</label>
+                            <label><input type="radio" name="gender" value="NotSpecified"> Not specified</label>
+                        </div>
+                    </div>
+                    <div class="a">
+                        <p>Profession</p>
+                        <div class="second"><input id="profession" type="text"/></div>
+                    </div>
+                    <div class="a">
+                        <p>Email</p>
+                        <div class="second"><input id="email" type="email" required/></div>
+                    </div>
+                    <div class="a">
+                        <p>Mobile Number</p>
+                        <div class="second"><input id="no" type="tel" pattern="[0-9]{10}" required/></div>
+                    </div>
+                    <div class="a">
+                        <button onclick="reset()">Reset</button>
+                        <button onclick="submit()">Submit</button>
+                    </div>
+                </div>
+           
+            
+        </div>
+    </body>
+    <script src="Second.js">
+    </script>
+</html>
